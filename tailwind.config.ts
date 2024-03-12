@@ -13,6 +13,13 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      "files.associations": {
+        "*html": "html",
+        "*.css": "tailwindcss",
+      },
+      "editor.quickSuggestions": {
+        strings: true,
+      },
     },
   },
   plugins: [],
