@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./style/globals.css";
+import Header from "./component/rootLayout/header";
+import Sidebar from "./component/rootLayout/sidebar";
 
 const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
@@ -15,12 +17,12 @@ export const metadata: Metadata = {
 export default function RootLayout(props: any) {
   return (
     <html lang="ko">
-      <body className={`${roboto.className} bg-gray-50 h-full`}>
-        <header className="flex w-full h-20 bg-white items-center">
-          <h1 className="p-5 font-bold text-blue text-3xl">Live Chat</h1>
-        </header>
-        <div className="h-2 bg-gradient-to-b from-gray-300"></div>
-        <section>
+      <body
+        className={`${roboto.className}flex flex-col bg-gray-100 overflow-hidden h-screen`}
+      >
+        <Header />
+        <section className="flex ">
+          <Sidebar />
           {props.children}
         </section>
       </body>
