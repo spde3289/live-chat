@@ -3,7 +3,7 @@ import Scissors from "@/app/svg/Scissors";
 
 export default function Sidebar() {
   return (
-    <nav className="w-[340px] min-w-[340px] ">
+    <nav className="w-[340px] min-w-[200px] ">
       <div className="bg-white h-20 border-slate-300 border-r-[1px]">
         <div className="w-20">
           <Scissors />
@@ -14,11 +14,13 @@ export default function Sidebar() {
         <div className="font-bold text-4xl pb-2">Chats</div>
       </div>
       <div className="flex items-center justify-center">
-        <ul className="">
+        <ul className="h-[648px] w-64 px-5 overflow-y-scroll scroll">
           <ChatItem link="1" />
           <ChatItem link="2" />
           <ChatItem link="3" />
           <ChatItem link="4" />
+          <ChatItem link="5" />
+          <ChatItem link="6" />
           <ChatItem link="5" />
           <ChatItem link="6" />
         </ul>

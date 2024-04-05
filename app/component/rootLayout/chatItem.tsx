@@ -8,7 +8,7 @@ interface ChatItemProps {
 export default function ChatItem({ link }: ChatItemProps) {
   return (
     <Link href={link}>
-      <li className="rounded-2xl w-72 h-24 shadow-xl mb-3 p-6 flex bg-white items-center justify-between">
+      <li className="rounded-2xl w-full min-w-40 h-24 shadow-xl mb-3 p-6 flex bg-white items-center justify-between">
         <h3 className="font-bold text-xl">{link}번 방</h3>
         <Arrow />
       </li>
