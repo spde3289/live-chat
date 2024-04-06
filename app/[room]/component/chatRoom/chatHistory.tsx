@@ -10,8 +10,11 @@ export default function ChatHistory({ userType }: any) {
       <div className="mb-4">
         <div className={type}>
           <div className="text-xl">김지훈</div>
-          <div className={`${chat[userType]} w-min break-words max-w-96  text-2xl p-2`}>
-            asdasdasdasd dasdasdadasdasdddddddddddddddddddddddddddddasdasdasd dasda dasdqw dqwdasd ddddddddddd
+          <div
+            className={`${chat[userType]} w-min break-words max-w-md text-2xl p-2`}
+          >
+            asdasdasdasd dasdasdadasdasdddddddddddddddddddddddddddddasdasdasd
+            dasda dasdqw dqwdasd ddddddddddd
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import CharRoom from "./component/chatRoom/chatRoom";
-import ParticipantCounter from "./component/ParticipantCounter";
+import ParticipantCounter from "./component/ParticipantCounter/ParticipantCounter";
 
 export default function Room(props: any) {
   console.log(props);
