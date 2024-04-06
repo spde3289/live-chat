@@ -21,7 +21,7 @@ export default function RootLayout(props: any) {
         className={`${roboto.className}flex flex-col bg-gray-100 overflow-hidden h-screen`}
       >
         <Header />
-        <section className="flex ">
+        <section className="flex">
           <Sidebar />
           {props.children}
         </section>

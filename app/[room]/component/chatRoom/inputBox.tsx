@@ -10,9 +10,10 @@ export default function InputBox() {
           />
           <div className="absolute right-[160px] top-[9px] flex items-center justify-center size-12 rounded-3xl bg-[#924CF4]">
             <svg
+              className="rotate-45"
               stroke="currentColor"
               fill="#ffffff"
-              stroke-width="2"
+              strokeWidth="2"
               viewBox="0 0 24 24"
               aria-hidden="true"
               height="32px"
@@ -20,8 +21,8 @@ export default function InputBox() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
               ></path>
             </svg>
