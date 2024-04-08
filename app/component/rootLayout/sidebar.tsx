@@ -3,7 +3,7 @@ import Scissors from "@/app/svg/Scissors";
 
 export default function Sidebar() {
   return (
-    <nav className="w-[340px] min-w-[200px] ">
+    <nav className="w-[255px]  ">
       <div className="bg-white h-20 border-slate-300 border-r-[1px]">
         <div className="w-20">
           <Scissors />
